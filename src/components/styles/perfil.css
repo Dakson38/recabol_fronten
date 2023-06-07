@@ -1,0 +1,28 @@
+.main-perfil-empleado{
+    width: 100%;
+    height: 568px;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: #F1F1F1;
+}
+
+
+.main-header{
+    height: 10%;
+
+    display: flex;
+    flex-direction: row;
+}
+.header-ubicacion{
+    width: 50%;
+    background-color: #E9651A;
+
+    display: flex;
+    flex-direction: row;
+}
+.logo-header-recabol{
+    width: 50%;
+    background-color: rgba(233,101,26,0.8);
+}
