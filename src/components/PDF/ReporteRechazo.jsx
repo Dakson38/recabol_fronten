@@ -67,7 +67,7 @@ const PDFReporteRechazo = ({ reporte }) => (
                 <View style={StyleReporteRechazo.tabla_1_titulo}><Text>DETALLE DEL RECHAZO</Text></View>
                 <View style={StyleReporteRechazo.tabla_1_fila}>
                     <View style={StyleReporteRechazo.tabla_1_columna_titulo}>
-                        <Text>CLIENTE:</Text>
+                        <Text>MOMENTO DEL RECHAZO:</Text>
                     </View>
                     <View style={StyleReporteRechazo.tabla_2_columna}>
                         <Text>Isabel Rocabado</Text>
@@ -75,7 +75,7 @@ const PDFReporteRechazo = ({ reporte }) => (
                 </View>
                 <View style={StyleReporteRechazo.tabla_1_fila}>
                     <View style={StyleReporteRechazo.tabla_1_columna_titulo}>
-                        <Text>CLIENTE:</Text>
+                        <Text>CAUSA DEL RECHAZO:</Text>
                     </View>
                     <View style={StyleReporteRechazo.tabla_2_columna}>
                         <Text>Isabel Rocabado</Text>
@@ -83,7 +83,7 @@ const PDFReporteRechazo = ({ reporte }) => (
                 </View>
                 <View style={StyleReporteRechazo.tabla_1_fila}>
                     <View style={StyleReporteRechazo.tabla_1_columna_titulo}>
-                        <Text>CLIENTE:</Text>
+                        <Text>ESTADO:</Text>
                     </View>
                     <View style={StyleReporteRechazo.tabla_2_columna}>
                         <Text>Isabel Rocabado</Text>
@@ -91,15 +91,7 @@ const PDFReporteRechazo = ({ reporte }) => (
                 </View>
                 <View style={StyleReporteRechazo.tabla_1_fila}>
                     <View style={StyleReporteRechazo.tabla_1_columna_titulo}>
-                        <Text>CLIENTE:</Text>
-                    </View>
-                    <View style={StyleReporteRechazo.tabla_2_columna}>
-                        <Text>Isabel Rocabado</Text>
-                    </View>
-                </View>
-                <View style={StyleReporteRechazo.tabla_1_fila}>
-                    <View style={StyleReporteRechazo.tabla_1_columna_titulo}>
-                        <Text>CLIENTE:</Text>
+                        <Text>TÉCNICO RESPONSABLE:</Text>
                     </View>
                     <View style={StyleReporteRechazo.tabla_2_columna}>
                         <Text>Isabel Rocabado</Text>

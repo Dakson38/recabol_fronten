@@ -160,11 +160,12 @@ const StyleNotaOrden = StyleSheet.create({
     height: '43px',
     flexDirection:'row',
     fontSize:'10px',
-    backgroundColor:'tomato'
+    
   },
   lugar_entrega:{
     flexDirection:'row',
-    width:'33%'
+    width:'33%',
+    alignSelf:'flex-end',
   },
   contratante:{
     width:'33%',

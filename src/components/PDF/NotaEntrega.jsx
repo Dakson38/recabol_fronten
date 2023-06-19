@@ -30,10 +30,10 @@ const PDFNotaEntrega = ({ notaEntrega }) => (
                     <View>
                         <Text style={StyleNotaEntrega.nro_fecha_texto}>NOTA DE ENTREGA</Text>
                         <View style={StyleNotaEntrega.nro_orden_cont}>
-                            <Text style={StyleNotaEntrega.nro_orden_texto}>N-°</Text><Text style={StyleNotaEntrega.nro_orden_dato}>390123</Text>
+                            <Text style={StyleNotaEntrega.nro_orden_texto}>N-°</Text><Text style={StyleNotaEntrega.nro_orden_dato}>{notaEntrega.nro_entrega}</Text>
                         </View>
                         <View style={StyleNotaEntrega.fecha_cont}>
-                            <Text style={StyleNotaEntrega.fecha_cont_texto}>MIDAS:</Text><Text style={StyleNotaEntrega.fecha_cont_dato}>04/06/2023</Text>
+                            <Text style={StyleNotaEntrega.fecha_cont_texto}>MIDAS:</Text><Text style={StyleNotaEntrega.fecha_cont_dato}>{notaEntrega.fecha}</Text>
                         </View>
                     </View>
                 </View>
@@ -42,12 +42,12 @@ const PDFNotaEntrega = ({ notaEntrega }) => (
             <View style={StyleNotaEntrega.section_2}>
 
                 <View style={StyleNotaEntrega.senior}>
-                    <Text>Señor(es): </Text><Text>Juan Benitez de la riva y bosques del llano</Text>
+                    <Text>Señor(es): </Text><Text>{notaEntrega.cliente}</Text>
                 </View>
 
                 <View style={StyleNotaEntrega.senior_datos}>
                     <View style={StyleNotaEntrega.senior_datos_ref}>
-                        <Text>Ref:</Text><Text>76543210</Text>
+                        <Text>Ref:</Text><Text>{notaEntrega.referencia}</Text>
                     </View>
                 </View>
 
